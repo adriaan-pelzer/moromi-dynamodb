@@ -17,8 +17,9 @@ To update a numerical attribute called `active_time` in an item identified by pr
 ```js
 {
   name: 'update user active_time',
+  type: require('moromi-dynamodb'),
   params: {
-    method: 'putItem',
+    method: 'updateItem',
     params: {
       ExpressionAttributeNames: { '#AT': 'active_time' },
       ExpressionAttributeValues: { ':at': `${new Date().valueOf()}` },
