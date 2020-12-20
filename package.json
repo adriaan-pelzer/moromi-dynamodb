@@ -1,0 +1,12 @@
+{
+  "name": "moromi-dynamodb",
+  "version": "0.0.1",
+  "description": "aws dynamodb plugin for moromi",
+  "main": "index.js",
+  "repository": "git@github.com:adriaan-pelzer/moromi-dynamodb.git",
+  "author": "Adriaan Pelzer <adriaan.pelzer@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.814.0"
+  }
+}
